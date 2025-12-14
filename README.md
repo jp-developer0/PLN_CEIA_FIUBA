@@ -13,7 +13,7 @@ En este repositorio se incluyen los cuatro desafíos propuestos en la asignatura
 ## Estructura del Repositorio
 
 ### Desafío 1: Vectorización y Clasificación de Texto
-- **Archivo**: [solucion_desafio1_jp.ipynb](clase_1/ejercicios/solucion_desafio1_jp.ipynb)
+- **Archivo**: [solucion_desafio1_jp.ipynb]
 - **Enfoque**: Vectorización de documentos y clasificación de texto con métodos tradicionales de NLP
 - **Técnicas**: TF-IDF, Naive Bayes (MultinomialNB y ComplementNB), clasificación por prototipos, similaridad de coseno
 - **Dataset**: 20 Newsgroups (11,314 documentos de entrenamiento, 7,532 de prueba)
@@ -29,7 +29,7 @@ En este repositorio se incluyen los cuatro desafíos propuestos en la asignatura
   - El análisis de similaridad de palabras revela relaciones semánticas capturadas por la matriz TF-IDF
 
 ### Desafío 2: Embeddings Personalizados con Word2Vec
-- **Archivo**: [solucion_desafio2_jp.ipynb](clase_2/ejercicios/solucion_desafio2_jp.ipynb)
+- **Archivo**: [solucion_desafio2_jp.ipynb]
 - **Enfoque**: Creación de embeddings personalizados mediante Word2Vec Skip-gram
 - **Técnicas**: Word2Vec Skip-gram, análisis de similitud semántica, t-SNE para visualización, clustering semántico
 - **Dataset**: Corpus de letras de Bob Dylan (5,213 líneas, vocabulario de 948 palabras únicas)
@@ -54,7 +54,7 @@ En este repositorio se incluyen los cuatro desafíos propuestos en la asignatura
   - Los embeddings reflejan la naturaleza poética del corpus, agrupando conceptos por campos semánticos
 
 ### Desafío 3: Modelos de Lenguaje con LSTMs
-- **Archivo**: [solucion_desafio3_jp.ipynb](clase_3/ejercicios/solucion_desafio3_jp.ipynb)
+- **Archivo**: [solucion_desafio3_jp.ipynb]
 - **Enfoque**: Generación de secuencias de texto mediante redes LSTM con tokenización a nivel de caracteres
 - **Técnicas**: LSTM, teacher forcing, perplexity como métrica de evaluación, early stopping
 - **Dataset**: Texto literario para modelado de lenguaje
@@ -74,7 +74,7 @@ En este repositorio se incluyen los cuatro desafíos propuestos en la asignatura
   - Los LSTMs capturan patrones sintácticos y semánticos a nivel de caracteres
 
 ### Desafío 4: Traducción Secuencia a Secuencia (Seq2Seq)
-- **Archivo**: [solucion_desafio4_jp.ipynb](clase_3/ejercicios/solucion_desafio4_jp.ipynb)
+- **Archivo**: [solucion_desafio4_jp.ipynb]
 - **Enfoque**: Modelo de traducción inglés-español mediante arquitectura encoder-decoder con PyTorch
 - **Técnicas**: Seq2Seq, LSTM bidireccional, embeddings pre-entrenados (GloVe), teacher forcing, one-hot encoding optimizado
 - **Dataset**: spa-eng (15,000 pares de traducción español-inglés)
